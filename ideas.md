@@ -45,3 +45,9 @@ Track climbing stuff!
 ## Data Visualization
 Use d3.js.
 Just get some cool graphs going.
+
+## LLM Tools
+Image generator thing?
+Dither cli tool -> video to dithered GIFF?
+Dither editor cli tool
+DALLE3 generator thing -> maybe multi agent? and then into the dither tool? -> maybe use vision model as a designer to iterate
