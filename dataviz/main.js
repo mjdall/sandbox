@@ -56,7 +56,8 @@ let pointSettings = {
     opacity: 1.0,
     sizeAttenuation: true,
     glow: 0.3,
-    hiddenOpacity: 0.05
+    hiddenOpacity: 0.05,
+    densityFactor: 1.0 // New setting for density emphasis
 };
 
 // Function to get color for status
@@ -73,13 +74,15 @@ function updateBackgroundColor() {
 function updatePointMaterial() {
     const vertexShader = `
         attribute vec3 color;
+        attribute float density;
         varying vec3 vColor;
         uniform float pointSize;
+        uniform float densityFactor;
         void main() {
             vColor = color;
             vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
             gl_Position = projectionMatrix * mvPosition;
-            gl_PointSize = pointSize * (300.0 / -mvPosition.z);
+            gl_PointSize = pointSize * (300.0 / -mvPosition.z) * (1.0 + density * densityFactor);
         }
     `;
 
@@ -114,7 +117,8 @@ function updatePointMaterial() {
             opacity: { value: pointSettings.opacity },
             glow: { value: pointSettings.glow },
             pointSize: { value: pointSettings.size },
-            hiddenOpacity: { value: pointSettings.hiddenOpacity }
+            hiddenOpacity: { value: pointSettings.hiddenOpacity },
+            densityFactor: { value: pointSettings.densityFactor }
         },
         vertexShader: vertexShader,
         fragmentShader: fragmentShader,
@@ -130,25 +134,13 @@ function updatePointMaterial() {
 // Function to create control panel
 function createControlPanel() {
     const panel = document.createElement('div');
-    panel.style.position = 'absolute';
-    panel.style.top = '300px'; // Adjust this value to position it below the legend
-    panel.style.left = '10px';
-    panel.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
-    panel.style.padding = '15px';
-    panel.style.borderRadius = '10px';
-    panel.style.color = 'white';
-    panel.style.fontFamily = 'Arial, sans-serif';
-    panel.style.boxShadow = '0 0 10px rgba(255, 255, 255, 0.1)';
-    panel.style.width = '200px'; // Set a fixed width for the panel
+    panel.id = 'control-panel';
 
     const createSlider = (label, min, max, step, value, onChange) => {
         const container = document.createElement('div');
-        container.style.marginBottom = '15px';
 
         const labelElement = document.createElement('label');
         labelElement.textContent = label;
-        labelElement.style.display = 'block';
-        labelElement.style.marginBottom = '5px';
 
         const slider = document.createElement('input');
         slider.type = 'range';
@@ -156,7 +148,6 @@ function createControlPanel() {
         slider.max = max;
         slider.step = step;
         slider.value = value;
-        slider.style.width = '100%';
 
         slider.addEventListener('input', onChange);
 
@@ -185,13 +176,15 @@ function createControlPanel() {
         updatePointsVisibility();
     }));
 
+    panel.appendChild(createSlider('Density Emphasis', 0, 5, 0.1, pointSettings.densityFactor, (e) => {
+        pointSettings.densityFactor = parseFloat(e.target.value);
+        updatePointMaterial();
+    }));
+
     const styleToggle = document.createElement('div');
-    styleToggle.style.marginBottom = '15px';
 
     const styleLabel = document.createElement('label');
     styleLabel.textContent = 'Size Attenuation';
-    styleLabel.style.display = 'block';
-    styleLabel.style.marginBottom = '5px';
 
     const styleCheckbox = document.createElement('input');
     styleCheckbox.type = 'checkbox';
@@ -211,13 +204,8 @@ function createControlPanel() {
 // Function to load and process CSV data
 async function loadData() {
     const loadingElement = document.createElement('div');
+    loadingElement.id = 'loading';
     loadingElement.textContent = 'Loading...';
-    loadingElement.style.position = 'absolute';
-    loadingElement.style.top = '50%';
-    loadingElement.style.left = '50%';
-    loadingElement.style.transform = 'translate(-50%, -50%)';
-    loadingElement.style.color = 'white';
-    loadingElement.style.fontSize = '24px';
     document.body.appendChild(loadingElement);
 
     const data = await csv("/data/reduced_mental_health_data_pacmap_3d.csv");
@@ -229,24 +217,27 @@ async function loadData() {
     const geometry = new THREE.BufferGeometry();
     const positions = [];
     const colors = [];
+    const densities = [];
     
     // Process data and add points
     data.forEach(row => {
         const x = parseFloat(row[pacmapColumns[0]]);
         const y = parseFloat(row[pacmapColumns[1]]);
         const z = parseFloat(row[pacmapColumns[2]]);
+        const density = parseFloat(row.density);
         
         positions.push(x, y, z);
         
-        // Get color based on status
         const status = row.status;
-        dataPoints.push({ status: status });
+        dataPoints.push({ status: status, density: density });
         const color = getColorForStatus(status);
         colors.push(color.r, color.g, color.b);
+        densities.push(density);
     });
     
     geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
     geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+    geometry.setAttribute('density', new THREE.Float32BufferAttribute(densities, 1));
     
     const material = new THREE.PointsMaterial({
         size: pointSettings.size,
@@ -271,37 +262,14 @@ async function loadData() {
 function createLegend() {
     const legend = document.createElement('div');
     legend.id = 'legend';
-    legend.style.position = 'absolute';
-    legend.style.top = '50px';
-    legend.style.left = '10px';
-    legend.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
-    legend.style.padding = '15px';
-    legend.style.borderRadius = '10px';
-    legend.style.color = 'white';
-    legend.style.fontFamily = 'Arial, sans-serif';
-    legend.style.boxShadow = '0 0 10px rgba(255, 255, 255, 0.1)';
-    legend.style.width = '200px'; // Set a fixed width
-    legend.style.maxHeight = '220px'; // Set a max height
-    legend.style.overflowY = 'auto'; // Add scrollbar if content exceeds max height
 
     Object.entries(statusColors).forEach(([status, color]) => {
         const item = document.createElement('div');
         item.className = 'legend-item';
-        item.style.marginBottom = '5px';
-        item.style.cursor = 'pointer';
-        item.style.display = 'flex';
-        item.style.alignItems = 'center';
-        item.style.transition = 'all 0.3s';
-        item.style.padding = '5px';
-        item.style.borderRadius = '5px';
 
         const colorBox = document.createElement('span');
         colorBox.className = 'color-box';
-        colorBox.style.display = 'inline-block';
-        colorBox.style.width = '20px';
-        colorBox.style.height = '20px';
         colorBox.style.backgroundColor = `#${color.getHexString()}`;
-        colorBox.style.marginRight = '5px';
 
         const textSpan = document.createElement('span');
         textSpan.className = 'status-text';
@@ -327,22 +295,13 @@ function createLegend() {
 // Function to create info section
 function createInfo() {
     const info = document.createElement('div');
-    info.style.position = 'absolute';
-    info.style.top = '20px';
-    info.style.left = '50%';
-    info.style.transform = 'translateX(-50%)';
-    info.style.textAlign = 'center';
-    info.style.color = 'white';
-    info.style.fontFamily = 'Arial, sans-serif';
-    info.style.textShadow = '0 0 5px rgba(0, 0, 0, 0.5)';
+    info.id = 'info';
 
     const title = document.createElement('h1');
     title.textContent = 'Mental Health Data Visualization';
-    title.style.margin = '0 0 10px 0';
 
     const description = document.createElement('p');
     description.textContent = 'Trying out some data viz in three.js';
-    description.style.margin = '0';
 
     info.appendChild(title);
     info.appendChild(description);
@@ -379,6 +338,7 @@ function updateLegendVisibility() {
 // Function to update points visibility based on active statuses
 function updatePointsVisibility() {
     const colors = points.geometry.attributes.color;
+    const densities = points.geometry.attributes.density;
     
     for (let i = 0; i < dataPoints.length; i++) {
         const status = dataPoints[i].status;
@@ -390,10 +350,13 @@ function updatePointsVisibility() {
         } else {
             colors.setXYZ(i, pointSettings.hiddenOpacity, pointSettings.hiddenOpacity, pointSettings.hiddenOpacity);
         }
+        
+        densities.setX(i, dataPoints[i].density);
     }
     
     colors.needsUpdate = true;
-    updatePointMaterial(); // Update the material to reflect color changes
+    densities.needsUpdate = true;
+    updatePointMaterial();
 }
 
 // Load data and set up the scene

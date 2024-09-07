@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#info {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#info h1 {
+    margin: 0 0 10px 0;
+}
+
+#info p {
+    margin: 0;
+}
+
+#legend {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 200px;
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+.legend-item {
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.legend-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#control-panel {
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 200px;
+}
+
+#control-panel div {
+    margin-bottom: 15px;
+}
+
+#control-panel label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#control-panel input[type="range"] {
+    width: 100%;
+}
+
+#loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+}
