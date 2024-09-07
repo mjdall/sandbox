@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dataviz"
+version = "0.1.0"
+description = "Sandbox (dataviz)"
+authors = ["morgan <oss@morgandally.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pacmap = "^0.7.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "24.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -21,6 +21,9 @@ autograd = "^1.7.0"
 torch = "^2.4.1"
 fire = "^0.6.0"
 plotext = "^5.2.8"
+sentence-transformers = "^3.0.1"
+kaggle = "^1.6.17"
+llvmlite = "^0.43.0"
 
 
 [tool.poetry.group.dev.dependencies]
