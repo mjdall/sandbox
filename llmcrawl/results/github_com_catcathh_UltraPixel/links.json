@@ -1,0 +1,678 @@
+{
+    "internal": [
+        {
+            "href": "#start-of-content",
+            "text": "Skip to content"
+        },
+        {
+            "href": "/",
+            "text": "\n\n\n\n"
+        },
+        {
+            "href": "/login?return_to=https%3A%2F%2Fgithub.com%2Fcatcathh%2FUltraPixel",
+            "text": "\n            Sign in\n          "
+        },
+        {
+            "href": "https://github.com/features/actions",
+            "text": "\n\n\n\n\nActions\n        Automate any workflow\n      \n"
+        },
+        {
+            "href": "https://github.com/features/packages",
+            "text": "\n\n\n\n\nPackages\n        Host and manage packages\n      \n"
+        },
+        {
+            "href": "https://github.com/features/security",
+            "text": "\n\n\n\n\nSecurity\n        Find and fix vulnerabilities\n      \n"
+        },
+        {
+            "href": "https://github.com/features/codespaces",
+            "text": "\n\n\n\n\nCodespaces\n        Instant dev environments\n      \n"
+        },
+        {
+            "href": "https://github.com/features/copilot",
+            "text": "\n\n\n\n\nGitHub Copilot\n        Write better code with AI\n      \n"
+        },
+        {
+            "href": "https://github.com/features/code-review",
+            "text": "\n\n\n\n\nCode review\n        Manage code changes\n      \n"
+        },
+        {
+            "href": "https://github.com/features/issues",
+            "text": "\n\n\n\n\nIssues\n        Plan and track work\n      \n"
+        },
+        {
+            "href": "https://github.com/features/discussions",
+            "text": "\n\n\n\n\nDiscussions\n        Collaborate outside of code\n      \n"
+        },
+        {
+            "href": "https://github.com/features",
+            "text": "\n      All features\n\n    \n"
+        },
+        {
+            "href": "https://docs.github.com",
+            "text": "\n      Documentation\n\n    \n\n\n"
+        },
+        {
+            "href": "https://skills.github.com",
+            "text": "\n      GitHub Skills\n\n    \n\n\n"
+        },
+        {
+            "href": "https://github.com/enterprise",
+            "text": "\n      Enterprise\n\n    \n"
+        },
+        {
+            "href": "https://github.com/team",
+            "text": "\n      Teams\n\n    \n"
+        },
+        {
+            "href": "https://github.com/enterprise/startups",
+            "text": "\n      Startups\n\n    \n"
+        },
+        {
+            "href": "https://github.com/solutions/industries/healthcare",
+            "text": "\n      Healthcare\n\n    \n"
+        },
+        {
+            "href": "https://github.com/solutions/industries/financial-services",
+            "text": "\n      Financial services\n\n    \n"
+        },
+        {
+            "href": "https://github.com/solutions/industries/manufacturing",
+            "text": "\n      Manufacturing\n\n    \n"
+        },
+        {
+            "href": "https://github.com/solutions/ci-cd",
+            "text": "\n      CI/CD & Automation\n\n    \n"
+        },
+        {
+            "href": "https://github.com/solutions/devops",
+            "text": "\n      DevOps\n\n    \n"
+        },
+        {
+            "href": "https://github.com/solutions/devsecops",
+            "text": "\n      DevSecOps\n\n    \n"
+        },
+        {
+            "href": "/resources/articles/ai",
+            "text": "\n      AI\n\n    \n"
+        },
+        {
+            "href": "/resources/articles/devops",
+            "text": "\n      DevOps\n\n    \n"
+        },
+        {
+            "href": "/resources/articles/security",
+            "text": "\n      Security\n\n    \n"
+        },
+        {
+            "href": "/resources/articles/software-development",
+            "text": "\n      Software Development\n\n    \n"
+        },
+        {
+            "href": "/resources/articles",
+            "text": "\n      View all\n\n    \n"
+        },
+        {
+            "href": "https://resources.github.com/learn/pathways",
+            "text": "\n      Learning Pathways\n\n    \n\n\n"
+        },
+        {
+            "href": "https://resources.github.com",
+            "text": "\n      White papers, Ebooks, Webinars\n\n    \n\n\n"
+        },
+        {
+            "href": "https://github.com/customer-stories",
+            "text": "\n      Customer Stories\n\n    \n"
+        },
+        {
+            "href": "https://partner.github.com",
+            "text": "\n      Partners\n\n    \n\n\n"
+        },
+        {
+            "href": "/sponsors",
+            "text": "\n\nGitHub Sponsors\n        Fund open source developers\n      \n"
+        },
+        {
+            "href": "https://github.com/readme",
+            "text": "\n\nThe ReadME Project\n        GitHub community articles\n      \n"
+        },
+        {
+            "href": "https://github.com/topics",
+            "text": "\n      Topics\n\n    \n"
+        },
+        {
+            "href": "https://github.com/trending",
+            "text": "\n      Trending\n\n    \n"
+        },
+        {
+            "href": "https://github.com/collections",
+            "text": "\n      Collections\n\n    \n"
+        },
+        {
+            "href": "/enterprise",
+            "text": "\n\n\n\n\nEnterprise platform\n        AI-powered developer platform\n      \n"
+        },
+        {
+            "href": "https://github.com/enterprise/advanced-security",
+            "text": "\n\n\n\n\nAdvanced Security\n        Enterprise-grade security features\n      \n"
+        },
+        {
+            "href": "/features/copilot#enterprise",
+            "text": "\n\n\n\n\nGitHub Copilot\n        Enterprise-grade AI features\n      \n"
+        },
+        {
+            "href": "/premium-support",
+            "text": "\n\n\n\n\nPremium Support\n        Enterprise-grade 24/7 support\n      \n"
+        },
+        {
+            "href": "https://github.com/pricing",
+            "text": "Pricing"
+        },
+        {
+            "href": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+            "text": "\n              Search syntax tips\n"
+        },
+        {
+            "href": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+            "text": "documentation"
+        },
+        {
+            "href": "/login?return_to=https%3A%2F%2Fgithub.com%2Fcatcathh%2FUltraPixel",
+            "text": "\n                Sign in\n              "
+        },
+        {
+            "href": "/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=catcathh%2FUltraPixel",
+            "text": "\n                Sign up\n              "
+        },
+        {
+            "href": "/login?return_to=%2Fcatcathh%2FUltraPixel",
+            "text": " \n\nNotifications\n"
+        },
+        {
+            "href": "/login?return_to=%2Fcatcathh%2FUltraPixel",
+            "text": " \n\nFork\n    16\n"
+        },
+        {
+            "href": "/login?return_to=%2Fcatcathh%2FUltraPixel",
+            "text": " \n\n\n          Star\n 489\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/LICENSE",
+            "text": "\n\n\n\n     AGPL-3.0 license\n    "
+        },
+        {
+            "href": "/catcathh/UltraPixel/stargazers",
+            "text": "\n\n\n\n489\n          stars\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/forks",
+            "text": "\n\n\n\n16\n          forks\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/branches",
+            "text": "\n\n\n\nBranches\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tags",
+            "text": "\n\n\n\nTags\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/activity",
+            "text": "\n\n\n\nActivity\n"
+        },
+        {
+            "href": "/login?return_to=%2Fcatcathh%2FUltraPixel",
+            "text": " \n\n\n          Star\n\n"
+        },
+        {
+            "href": "/login?return_to=%2Fcatcathh%2FUltraPixel",
+            "text": " \n\nNotifications\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel",
+            "text": "\n\n\n\nCode\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/issues",
+            "text": "\n\n\n\nIssues\n14\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/pulls",
+            "text": "\n\n\n\nPull requests\n0\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/actions",
+            "text": "\n\n\n\nActions\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/projects",
+            "text": "\n\n\n\nProjects\n0\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/security",
+            "text": "\n\n\n\nSecurity\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/pulse",
+            "text": "\n\n\n\nInsights\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel",
+            "text": "\n\n\n\n\n\n\n          Code\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/issues",
+            "text": "\n\n\n\n\n\n\n          Issues\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/pulls",
+            "text": "\n\n\n\n\n\n\n          Pull requests\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/actions",
+            "text": "\n\n\n\n\n\n\n          Actions\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/projects",
+            "text": "\n\n\n\n\n\n\n          Projects\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/security",
+            "text": "\n\n\n\n\n\n\n          Security\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/pulse",
+            "text": "\n\n\n\n\n\n\n          Insights\n\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/branches",
+            "text": "1\nBranch\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tags",
+            "text": "0\nTags\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/branches",
+            "text": ""
+        },
+        {
+            "href": "/catcathh/UltraPixel/tags",
+            "text": ""
+        },
+        {
+            "href": "/catcathh/UltraPixel/commits/main/",
+            "text": "17 Commits"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/configs",
+            "text": "configs"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/configs",
+            "text": "configs"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/a9b97c9a4cc38ef5cbe0d821b89573bac2a10802",
+            "text": "Initial commit"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/core",
+            "text": "core"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/core",
+            "text": "core"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/b62638578368305c0317e852635a6ea045deb0b7",
+            "text": "add .gitignore file"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/figures",
+            "text": "figures"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/figures",
+            "text": "figures"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/a5a01f038f44774998dfbec09f2152333236a493",
+            "text": "Add files via upload"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/gdf",
+            "text": "gdf"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/gdf",
+            "text": "gdf"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/b62638578368305c0317e852635a6ea045deb0b7",
+            "text": "add .gitignore file"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/inference",
+            "text": "inference"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/inference",
+            "text": "inference"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/37e1d96c8c3287d262b8d5408a56d9f8ddaefc38",
+            "text": "Update test_t2i.py"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/models",
+            "text": "models"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/models",
+            "text": "models"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/a9b97c9a4cc38ef5cbe0d821b89573bac2a10802",
+            "text": "Initial commit"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/modules",
+            "text": "modules"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/modules",
+            "text": "modules"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/b62638578368305c0317e852635a6ea045deb0b7",
+            "text": "add .gitignore file"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/train",
+            "text": "train"
+        },
+        {
+            "href": "/catcathh/UltraPixel/tree/main/train",
+            "text": "train"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/b62638578368305c0317e852635a6ea045deb0b7",
+            "text": "add .gitignore file"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/.gitignore",
+            "text": ".gitignore"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/.gitignore",
+            "text": ".gitignore"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/b62638578368305c0317e852635a6ea045deb0b7",
+            "text": "add .gitignore file"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/LICENSE",
+            "text": "LICENSE"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/LICENSE",
+            "text": "LICENSE"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/d2f7ad32242594ca8d7ab0eef0fac57ea5ee3ab4",
+            "text": "Create LICENSE"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/README.md",
+            "text": "README.md"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/README.md",
+            "text": "README.md"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/855f8ca4fd10f74d8d0009b0f48262e0ce9d6aa2",
+            "text": "Update README.md"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/app.py",
+            "text": "app.py"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/app.py",
+            "text": "app.py"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/ac4ae81af9b897ddae1a65d605d7664bf7c729a3",
+            "text": "Create app.py"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/prompt_list.txt",
+            "text": "prompt_list.txt"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/prompt_list.txt",
+            "text": "prompt_list.txt"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/a9b97c9a4cc38ef5cbe0d821b89573bac2a10802",
+            "text": "Initial commit"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/requirements.txt",
+            "text": "requirements.txt"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/requirements.txt",
+            "text": "requirements.txt"
+        },
+        {
+            "href": "/catcathh/UltraPixel/commit/955872450a486d914afbd2f99ef82a9c9e0234dc",
+            "text": "Update requirements.txt"
+        },
+        {
+            "href": "#",
+            "text": "README"
+        },
+        {
+            "href": "#",
+            "text": "AGPL-3.0 license"
+        },
+        {
+            "href": "#ultrapixel",
+            "text": ""
+        },
+        {
+            "href": "#-updates",
+            "text": ""
+        },
+        {
+            "href": "https://github.com/gradio-app/gradio",
+            "text": "Gradio"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/figures/teaser.jpg",
+            "text": ""
+        },
+        {
+            "href": "#getting-started",
+            "text": ""
+        },
+        {
+            "href": "https://github.com/Stability-AI/StableCascade/tree/master/models",
+            "text": "StableCascade model downloading instructions"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/models/models_checklist.txt",
+            "text": "here"
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/models",
+            "text": "models"
+        },
+        {
+            "href": "#inference",
+            "text": ""
+        },
+        {
+            "href": "#text-guided-image-generation",
+            "text": ""
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/prompt_list.txt",
+            "text": "here"
+        },
+        {
+            "href": "#personalized-image-generation",
+            "text": ""
+        },
+        {
+            "href": "#controlnet-image-generation",
+            "text": ""
+        },
+        {
+            "href": "#t2i-training",
+            "text": ""
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/figures/example_dataset",
+            "text": "here"
+        },
+        {
+            "href": "#personalized-training",
+            "text": ""
+        },
+        {
+            "href": "/catcathh/UltraPixel/blob/main/figures/example_dataset",
+            "text": "here"
+        },
+        {
+            "href": "#citation",
+            "text": ""
+        },
+        {
+            "href": "#contact-information",
+            "text": ""
+        },
+        {
+            "href": "#acknowledgements",
+            "text": ""
+        },
+        {
+            "href": "https://github.com/Stability-AI/StableCascade",
+            "text": "StableCascade"
+        },
+        {
+            "href": "https://github.com/yinboc/trans-inr",
+            "text": "Trans-inr"
+        },
+        {
+            "href": "#readme-ov-file",
+            "text": "\n\n\n\n        Readme\n"
+        },
+        {
+            "href": "#AGPL-3.0-1-ov-file",
+            "text": "\n\n\n\n     AGPL-3.0 license\n    "
+        },
+        {
+            "href": "/catcathh/UltraPixel/activity",
+            "text": "\n\n\n\nActivity\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/stargazers",
+            "text": "\n\n\n\n489\n      stars\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/watchers",
+            "text": "\n\n\n\n7\n      watching\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/forks",
+            "text": "\n\n\n\n16\n      forks\n"
+        },
+        {
+            "href": "/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fcatcathh%2FUltraPixel&report=catcathh+%28user%29",
+            "text": "\n          Report repository\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/releases",
+            "text": "\n    Releases\n"
+        },
+        {
+            "href": "/users/catcathh/packages?repo_name=UltraPixel",
+            "text": "\n    Packages\n      0\n"
+        },
+        {
+            "href": "/catcathh/UltraPixel/search?l=python",
+            "text": "\n\n\n\nPython\n100.0%\n"
+        },
+        {
+            "href": "https://github.com",
+            "text": "\n\n\n\n"
+        },
+        {
+            "href": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+            "text": "Terms"
+        },
+        {
+            "href": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
+            "text": "Privacy"
+        },
+        {
+            "href": "https://github.com/security",
+            "text": "Security"
+        },
+        {
+            "href": "https://docs.github.com/",
+            "text": "Docs"
+        },
+        {
+            "href": "https://support.github.com?tags=dotcom-footer",
+            "text": "Contact"
+        }
+    ],
+    "external": [
+        {
+            "href": "https://github.blog",
+            "text": "\n      Blog\n\n    \n\n\n"
+        },
+        {
+            "href": "https://jingjingrenabc.github.io/ultrapixel/",
+            "text": "Project Page"
+        },
+        {
+            "href": "https://arxiv.org/abs/2407.02158",
+            "text": "arXiv version"
+        },
+        {
+            "href": "https://drive.google.com/file/d/1X18HH9kj7ltAnZorrkD84RJEdsJu4gDF/view?usp=sharing",
+            "text": "full paper"
+        },
+        {
+            "href": "https://huggingface.co/spaces/roubaofeipi/UltraPixel-demo",
+            "text": "HuggingFace Space"
+        },
+        {
+            "href": "https://huggingface.co/roubaofeipi/UltraPixel",
+            "text": "here"
+        },
+        {
+            "href": "https://huggingface.co/roubaofeipi/UltraPixel/blob/main/lora_cat.safetensors",
+            "text": "here"
+        },
+        {
+            "href": "https://huggingface.co/stabilityai/stable-cascade/resolve/main/controlnet/canny.safetensors",
+            "text": "ControlNet"
+        },
+        {
+            "href": "https://jingjingrenabc.github.io/ultrapixel/",
+            "text": "project page"
+        },
+        {
+            "href": "https://www.githubstatus.com/",
+            "text": "Status"
+        }
+    ]
+}

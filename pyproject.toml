@@ -24,6 +24,7 @@ plotext = "^5.2.8"
 sentence-transformers = "^3.0.1"
 kaggle = "^1.6.17"
 llvmlite = "^0.43.0"
+crawl4ai = {git = "https://github.com/unclecode/crawl4ai.git"}
 
 
 [tool.poetry.group.dev.dependencies]
